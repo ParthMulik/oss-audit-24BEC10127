@@ -37,4 +37,5 @@ Requirements • Ubuntu / Linux system • Bash shell • Python installed
 Conclusion: This project helped me understand shell scripting in a practical way. While working on different scripts, I learned how to collect system information, check software details and analyze log files. It also improved my confidence in using Linux and writing basic scripts.
 
 Step 1: Give permission
+
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
