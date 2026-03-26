@@ -6,7 +6,7 @@ Course: NGMC (Open Source Software)
 
 ## About the Project
 This project is based on basic shell scripting in Linux.
-The aim was to understand how simple scripts can be used to collect system information, check software, analyze logs, and automate small tasks.
+The aim was to understand how simple scripts can be used to collect system information, check software, analyze logs and automate small tasks.
 
 All scripts were written and tested on Ubuntu (VirtualBox).
 
