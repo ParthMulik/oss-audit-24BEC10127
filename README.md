@@ -1,41 +1,40 @@
 # Open Source Software Audit Project
-Student Details
-Name: Parth Mulik
-Roll Number: 24BEC10127
-Course: NGMC (Open Source Software)
 
-## About the Project
-This project is based on basic shell scripting in Linux.
-The aim was to understand how simple scripts can be used to collect system information, check software, analyze logs and automate small tasks.
+## Student Information
+**Name:** Parth Mulik  
+**Roll Number:** 24BEC10127  
+**Course:** NGMC (Open Source Software)
 
-All scripts were written and tested on Ubuntu (VirtualBox).
+---
 
-## Software Chosen
-Python
+## Project Overview
+This project demonstrates the use of **basic shell scripting in Linux** to automate common system administration and auditing tasks.
 
-## Scripts Overview
-### Script 1: System Identity Report
-This script displays basic system information such as kernel version, username, uptime, date and Linux distribution.
+The objective of this project was to understand how shell scripts can be used to:
 
-### Script 2: Python Installation Check
-This script checks whether Python is installed on the system and shows related installed packages.
+- Collect system information
+- Verify software installations
+- Audit important directories
+- Analyze system log files
+- Automate file generation tasks
 
-### Script 3: Directory Audit
-This script checks important system directories and displays their permissions and size. It also verifies if the Python directory exists.
+All scripts were developed and tested on **Ubuntu Linux running in VirtualBox**.
 
-### Script 4: Log File Analyzer
-This script reads a system log file and counts how many times a keyword (like "error") appears. It also shows the last few matching lines.
+---
 
-### Script 5: Open Source Manifesto Generator
-This script takes user input and creates a simple manifesto file based on the responses.
+## Software Audited
+### Python
+Python was selected as the open-source software for this audit project. The scripts include checks related to Python installation, package verification, and directory validation.
 
-## How to Run the Scripts
-./script1.sh ./script2.sh ./script3.sh sudo ./script4.sh /var/log/syslog error ./script5.sh
+---
 
-Requirements • Ubuntu / Linux system • Bash shell • Python installed
+## Project Structure
 
-Conclusion: This project helped me understand shell scripting in a practical way. While working on different scripts, I learned how to collect system information, check software details and analyze log files. It also improved my confidence in using Linux and writing basic scripts.
-
-Step 1: Give permission
-
-chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+```bash
+.
+├── script1.sh
+├── script2.sh
+├── script3.sh
+├── script4.sh
+├── script5.sh
+└── README.md
